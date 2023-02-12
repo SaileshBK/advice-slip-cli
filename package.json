@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SaileshBK/advice-slip-cli/issues"
   },
-  "homepage": "https://github.com/SaileshBK/advice-slip-cli#readme"
+  "homepage": "https://github.com/SaileshBK/advice-slip-cli#readme",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
 }
