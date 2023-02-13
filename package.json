@@ -1,6 +1,6 @@
 {
   "name": "advice-slip-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A free advice quote from Advice Slip JSON API.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bin": {
+    "advice": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/SaileshBK/advice-slip-cli/issues"
   },
