@@ -1,10 +1,27 @@
-# Advice Slip CLI
-A free advice quote from Advice Slip JSON API.
+# 🅰🅳🆅🅸🅲🅴 🆂🅻🅸🅿 🅲🅻🅸
 
-## Requirements
+A free advice quote in your terminal from Advice Slip JSON API.
 
-## Install
+## 🆁🅴🆀🆄🅸🆁🅴🅼🅴🅽🆃🆂
 
-## Usage
+- [NodeJS](https://nodejs.org/)
 
+## 🅸🅽🆂🆃🅰🅻🅻
 
+```
+npm install -g advice-slip-cli
+```
+
+## 🆄🆂🅰🅶🅴
+
+In bash :
+
+```
+$ advice
+
+If your hair is thinning, try dying your hair a similar tone to your scalp.
+```
+
+## 🅲🆁🅴🅳🅸🆃🆂
+
+- [Advice Slip JSON API](https://api.adviceslip.com/)
