@@ -1,3 +1,14 @@
 #!/usr/bin/env node
 
-console.log('Hello World')
+const axios = require('axios');
+async function fetchData() {
+    const options = {
+        method: 'GET'
+    };
+
+    const response = await axios.get('https://api.adviceslip.com/advice', options)
+    console.log('')
+    console.log(response?.data.slip.advice);
+}
+
+fetchData();
